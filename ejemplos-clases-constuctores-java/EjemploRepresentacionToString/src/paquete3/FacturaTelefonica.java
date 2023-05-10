@@ -65,6 +65,7 @@ public class FacturaTelefonica {
     @Override
     public String toString(){
         String cadena = obtenerNumeroTelefono();
+        // String cadena = obtenerNumeroTelefono:
         return cadena;
     }
     

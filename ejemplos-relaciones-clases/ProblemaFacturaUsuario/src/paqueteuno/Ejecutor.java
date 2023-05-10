@@ -14,8 +14,8 @@ public class Ejecutor {
         // Crear el objeto Usuario
         Usuario usuario = new Usuario();
         
-        usuario.establecerNombre("María");
-        usuario.establecerApellido("Paute");
+        usuario.establecerNombre("Anthony");
+        usuario.establecerApellido("Celi");
         usuario.establecerIdentificacion("111122223");
         
         // Crear el objeto FacturaTelefonica
@@ -23,8 +23,8 @@ public class Ejecutor {
                 0.5, usuario);
         
         factura.calcularValorFactura();
-        
-        System.out.printf("Factura de Teléfono\n" +
+    
+         System.out.printf("Factura de Teléfono\n" +
                 "Nombre: %s\n" +
                 "Apellido: %s\n" +
                 "Identificación: %s\n" +
